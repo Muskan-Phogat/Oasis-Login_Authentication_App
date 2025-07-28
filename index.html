@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Auth App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h2>Login Authentication</h2>
+
+    <div id="register-section">
+      <h3>Register</h3>
+      <input type="text" id="regUsername" placeholder="Username">
+      <input type="password" id="regPassword" placeholder="Password">
+      <button onclick="register()">Register</button>
+    </div>
+
+    <div id="login-section">
+      <h3>Login</h3>
+      <input type="text" id="loginUsername" placeholder="Username">
+      <input type="password" id="loginPassword" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
